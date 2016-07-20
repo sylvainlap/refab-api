@@ -1,6 +1,6 @@
 {
   "host": "refab-api.herokuapp.com",
-  "port": "PORT",
+  "port": 5000,
   "postgres": "DATABASE_URL",
   "public": "../public/",
   "auth": {
