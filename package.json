@@ -1,25 +1,20 @@
 {
   "name": "refab-api",
   "description": "API for Refab project",
-  "version": "0.0.0",
-  "homepage": "",
+  "version": "0.0.1",
   "main": "src/",
   "keywords": [
     "feathers"
   ],
   "license": "MIT",
   "repository": {},
-  "author": {},
-  "contributors": [],
-  "bugs": {},
+  "author": "sylvainlap",
   "engines": {
-    "node": ">= 0.12.0"
+    "node": "6.3.0"
   },
   "scripts": {
-    "test": "npm run jshint && npm run mocha",
-    "jshint": "jshint src/. test/. --config",
-    "start": "node src/",
-    "mocha": "mocha test/ --recursive"
+    "test": "mocha test/ --recursive",
+    "start": "node src/"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -40,7 +35,6 @@
     "winston": "^2.2.0"
   },
   "devDependencies": {
-    "jshint": "^2.9.2",
     "mocha": "^2.5.3",
     "request": "^2.73.0"
   }
