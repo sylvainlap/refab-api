@@ -1,7 +1,7 @@
 {
   "host": "localhost",
   "port": 3030,
-  "postgres": "postgres://postgres:@localhost:5432/refabApi",
+  "postgres": "postgres://refab:refab@localhost:5432/refab",
   "public": "../public/",
   "auth": {
     "idField": "id",
