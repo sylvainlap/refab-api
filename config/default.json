@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "postgres": "postgres://postgres:@localhost:5432/refabApi",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "2UKDUuZ0gmsc7fqKn/Of65p/sK6y2nNdCoU03Q0PlskQ64pGAof6aqGebXhbidBxRHVYBAk1IcXU6p7Wen615g=="
+    },
+    "local": {}
+  }
+}
